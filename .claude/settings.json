@@ -1,0 +1,9 @@
+{
+  "agent": "fermi",
+  "permissions": {
+    "deny": [
+      "Read(./.env/**)",
+      "Read(*.token)"
+    ]
+  }
+}

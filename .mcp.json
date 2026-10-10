@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "azure-devops": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@azure-devops/mcp@2.10.0", "${ADO_ORG}", "-d", "core", "work", "work-items", "repositories", "wiki", "pipelines", "search"]
+    },
+    "drawio": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@drawio/mcp@1.6.3"]
+    },
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headersHelper": "node tools/github-mcp-headers.mjs"
+    }
+  }
+}

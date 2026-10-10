@@ -1,0 +1,10 @@
+# Secrets: the GitHub token lives in .env/github.token and must never be committed
+.env/
+.env
+*.token
+
+# Local audit trail of the agent's work in this workspace
+.docs/
+
+# Per-user Claude Code settings
+.claude/settings.local.json
