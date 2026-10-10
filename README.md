@@ -179,3 +179,7 @@ Every knowledge file has a `Last reviewed` date and states the source it was ver
 `/refresh-kb` quarterly (monthly for certifications during announced exam transitions). It follows
 `instructions/kb-refresh.md`: primary sources first (AWS/Microsoft docs MCPs, official cert pages, PMI PDFs,
 regulators), blogs only for discovery, then it greps and fixes every stale reference and reports what changed.
+
+## License
+Released under the [MIT License](LICENSE). Third-party material in `third_party/` keeps its own license,
+included alongside it.
